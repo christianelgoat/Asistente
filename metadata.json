@@ -1,0 +1,5 @@
+{
+  "name": "Asistente de Chat con IA",
+  "description": "Una aplicación de chatbot simple y estéticamente agradable que utiliza la API de Gemini para proporcionar respuestas inteligentes y conversacionales en tiempo real.",
+  "requestFramePermissions": []
+}
