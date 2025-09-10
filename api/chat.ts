@@ -36,7 +36,7 @@ export default async function handler(req: Request) {
 
     const ai = new GoogleGenAI({ apiKey });
     const chat = ai.chats.create({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.5-pro',
       history: toGeminiHistory(messages),
       config: {
         systemInstruction: 'Eres un asistente de IA amigable y servicial llamado Gemini. Tu propósito es ayudar a los usuarios con sus preguntas de la manera más clara y concisa posible. Responde siempre en español.',
